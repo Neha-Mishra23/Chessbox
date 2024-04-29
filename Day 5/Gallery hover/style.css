@@ -1,0 +1,34 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+}
+.main{
+    height: 250px;
+    width: 100%;
+}
+.image1
+{
+    float: left;
+    width: 33.33%;
+    height: 250px;
+    border: 1px solid black;
+}
+.image1 img
+{
+    width: 100%;
+    height: 250px;
+    float: left;
+    filter: grayscale(100);
+}
+.image1 img:hover
+{
+    filter: grayscale(0);
+}
+.main1{
+    border: 1px solid black;
+    width: 100%;
+    height: 250px;
+}
